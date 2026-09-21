@@ -1,23 +1,58 @@
 aid: gerrit
+
 name: Gerrit Code Review
-description: 'Gerrit Code Review is a company surfaced via the API Evangelist harvest backlog (source:
-  version-control) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Gerrit Code Review is an open‑source, web‑based code review system built for Git repositories. It enables teams to collaborate on patch‑set based reviews with fine‑grained permissions, extensive plugin architecture, and REST API integration. The platform scales to thousands of developers, supports enterprise‑grade security, and offers extensive documentation, roadmaps, and community resources.'
+
 url: https://raw.githubusercontent.com/api-evangelist/gerrit/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:version-control
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-21'
+
 modified: '2026-09-21'
+
 tags:
 - Company
-apis: []
+- Code Review
+- Open Source
+- Git
+- Collaboration
+- CI/CD
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: GitHubOrganization
+  url: https://github.com/GerritCodeReview
+- type: DomainSecurity
+  url: security/gerrit-domain-security.yml
 - type: Website
   url: https://www.gerritcodereview.com/
+- type: Documentation
+  url: https://gerrit-documentation.storage.googleapis.com/Documentation/3.14.2/index.html
+- type: Roadmap
+  url: https://www.gerritcodereview.com/roadmap.html
+- type: Support
+  url: https://www.gerritcodereview.com/support.html
+- type: Blog
+  url: https://www.gerritcodereview.com/news.html
+
+apis: []
+x-enrichment:
+  date: '2026-09-21'
+  status: enriched
+  artifacts_added: 4
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
