@@ -22,7 +22,7 @@ modified: '2026-09-21'
 tags:
 - Company
 - Code Review
-- Open-Source
+- Open Source
 - Git
 - Collaboration
 - CI/CD
@@ -33,6 +33,7 @@ tags_raw:
 - Git
 - Collaboration
 - CI/CD
+- Open-Source
 
 maintainers:
 - FN: Kin Lane

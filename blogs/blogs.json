@@ -1,0 +1,21 @@
+{
+  "repo": "gerrit",
+  "feeds": [
+    {
+      "source": "https://www.gerritcodereview.com/support.html",
+      "feed_url": "https://www.gerritcodereview.com/feed.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://www.gerritcodereview.com/feed.xml",
+      "feed_url": "https://www.gerritcodereview.com/feed.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-10-03T12:30:02Z"
+}
